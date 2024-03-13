@@ -11,7 +11,11 @@ public class Calculator {
     }
 
     public double divide(double numberOne, double numberTwo){
+        if(numberTwo == 0){
+            System.out.println("ERROR!!!");
+        }
         double result = numberOne/numberTwo;
         return result;
+
     }
 }
