@@ -11,6 +11,9 @@ public class Calculator {
     }
 
     public double divide(double numberOne, double numberTwo){
+        if(numberTwo == 0){
+            System.out.println("ERROR!!!");
+        }
         return numberOne/numberTwo;
     }
 }
